@@ -1,15 +1,18 @@
 body{
     display: flex;
     flex-direction: column;
-    
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+
 }
 .header {
     display: flex;
     flex-direction: column;
     background-color: #1f2937;
-    padding: 16px 100px;
-    
+    padding: 16px 100px 100px 100px;
 }
+
 .header .subheader {
     display: flex;
     justify-content: space-between;
@@ -17,14 +20,19 @@ body{
     font-size: 24px;
     color: #f9faf8;
     margin-bottom: 72px;
+    flex-wrap: wrap;
 }
+
 .subheader ul li a {
     font-size: 24px;
     color: #f9faf8;
+
 }
+
 .subheader img{
     width: 100px;
-    }
+}
+
 ul {
     display: flex;
     list-style: none;
@@ -32,9 +40,11 @@ ul {
     margin: 0;
     gap: 32px;
 }
+
 a {
     text-decoration: none;
 }
+
 button {
     background-color: #3882f6;
     padding: 8px 19px;
@@ -42,28 +52,136 @@ button {
     border-radius: 8px;
     font-size: 18px;
 }
+
 .header-text {
     display: flex;
     justify-content: space-around;
-}
+    flex-wrap: wrap;
+}    
+
 .header-text .left{
     width: 560px;
 }
+
 .header-text .maintext{
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
+
 .header-text .subtext {
     font-size: 18px;
     color: #e5e7eb;
-    margin-bottom: 8px
+    margin-bottom: 16px
 }
-.header-text img {
+
+.header-text div img {
     border-radius: 24px;
-}
+}  
 
 .starter {
     text-align: center;
+    padding: 50px;
+}
+
+.starter .maintext{
+   font-size: 36px;
+   font-weight: bolder; 
+   color: #1f2937;
+   margin-bottom: 52px;
+}
+
+img.image {
+    width: 150px;
+    border-radius: 18px;
+}
+
+.starter .content {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-wrap: wrap;
+    row-gap: 32px;
+}
+
+.botamon, .poyomon, 
+.punimon, .yuramon {
+    width: 200px;
+    padding: 5px;
+}
+
+.content .text{
+ text-align:start;
+}
+
+.botamon .image{
+    border: 2px Dashed green;
+}
+
+.poyomon .image {
+    border: 2px dashed orange;
+}
+
+.punimon .image {
+    border: 2px dashed blue;
+}
+
+.yuramon .image {
+    border: 2px dashed rgb(247, 168, 181);
+}
+
+.qoute { 
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    
+ }
+.qoute .container {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 14px;
+}
+
+.qoute .container .qouter{
+    font-size: 24px;
+    font-weight: 700;
+    align-self: flex-end;
+}
+
+.action {
+    display: flex;
+    max-width: 1000px;
+    background-color: #3882f6;
+    margin: 100px auto;
+    align-items: center;
+    border-radius: 30px;
+    padding: 100px;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.action .left .maintext {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.action .left .subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 24px;
+    color: #e5e7eB;
 }
