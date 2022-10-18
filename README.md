@@ -14,14 +14,4 @@ Images source https://digimon.fandom.com/wiki/Digimon_Wiki
 .Search for everything you want to learn.
 
 
-
-
-Finish Project Landing Page
-
-Completed the content, qoute, action, and footer section.
-Adujusted their alignment and finished their design as per assignment
-Revised the href address of Digimon Wiki so that it would redirect to
-the game wiki.
-Added the flex-wrap style so that objects in the page would adapt 
-according to the browser size.
-Removed some gaps in the style since it was smoothed by flex-wrap
+Note: to change, gap below and gap between sub header
