@@ -12,6 +12,5 @@ Images source https://digimon.fandom.com/wiki/Digimon_Wiki
 .Learned that Flex-direction: column is very useful for keeping a 
  flexbox at the bottom
 .Search for everything you want to learn.
+.Learned how to reference new text
 
-
-Note: to change, gap below and gap between sub header
